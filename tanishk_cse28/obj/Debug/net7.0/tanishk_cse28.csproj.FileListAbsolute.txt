@@ -1,0 +1,15 @@
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/bin/Debug/net7.0/tanishk_cse28
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/bin/Debug/net7.0/tanishk_cse28.deps.json
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/bin/Debug/net7.0/tanishk_cse28.runtimeconfig.json
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/bin/Debug/net7.0/tanishk_cse28.dll
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/bin/Debug/net7.0/tanishk_cse28.pdb
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.csproj.AssemblyReference.cache
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.AssemblyInfoInputs.cache
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.AssemblyInfo.cs
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.csproj.CoreCompileInputs.cache
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.dll
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/refint/tanishk_cse28.dll
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.pdb
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/tanishk_cse28.genruntimeconfig.cache
+/Users/tanishksingh/tanishk.html/tanishk_cse28/tanishk_cse28/obj/Debug/net7.0/ref/tanishk_cse28.dll
