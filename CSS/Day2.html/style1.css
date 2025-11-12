@@ -1,0 +1,142 @@
+h1{background-color: lab(32.01% -0.89 -27.95);
+    border-width: 3px;
+    border-radius: 100px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+
+}
+h2{background-color: aquamarine;
+border-radius: 30px;
+    border-width: 3px;
+    border-radius: 30px;
+    border-color: black;
+    border-style:dotted;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+}
+.A,.B,.C,.D,.E,.F{background-color: aqua;
+border-radius: 30px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: black;
+    border-style:solid;
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+     font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+}
+
+
+
+
+#First{background-color: rgb(158, 112, 51);
+border-radius: 30px;
+    border-width: 3px;
+    border-radius: 50px;
+    border-color: black;
+    border-style:dotted;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+    font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+
+}
+#Second{background-color: rgba(113, 52, 52, 0.816);
+border-radius: 30px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    width: 350px;
+    font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+
+}
+#Third{background-color: rgb(221, 227, 117);
+border-radius: 30px;
+    border-width: 3px;
+  
+    border-color: black;
+    border-style: dashed;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+}
+#Fourth,#Fifth{background-color: rgb(63, 128, 207);
+border-radius: 30px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+    font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+
+}
+#Six,#Seven{background-color: antiquewhite;
+border-radius: 30px;
+    border-width: 3px;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+
+}
+#Eight,#Nine,#Ten{background-color: rgb(40, 79, 112);
+border-radius: 30px;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+    font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  
+
+
+}
