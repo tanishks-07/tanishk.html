@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Netflix</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            color: red;
+            padding: 15px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        h2 {
+            margin-left: 20px;
+        }
+
+        .movies {
+            display: flex;
+            gap: 30px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 160px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 160px;
+            height: 220px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .card img:hover {
+            transform: scale(1.1);
+        }
+
+        .card p {
+            margin-top: 8px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="header">NETFLIX</div>
+
+<!-- ================= POPULAR MOVIES ================= -->
+<h2>Popular Movies</h2>
+<div class="movies">
+
+    <!-- Chhaava (FIXED POSTER) -->
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=8EPJiFfWRfw" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAW6iE49VO1gUyEC21-PXDy4GpWT3rnv49BksGLqcuj5mH5Uwqetx3X8a71HG3WIQyVhU8QHWqAp5sBYtns8RjPfKOh9z6kApNS8nPU_I&s=10">
+        </a>
+        <p>CHHAAVA</p>
+    </div>
+
+    <!-- Avengers Endgame -->
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg">
+        </a>
+        <p>AVENGERS ENDGAME</p>
+    </div>
+
+    <!-- Jolly LLB -->
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=HXMfNRyBG2m" target="_blank">
+            <img src="https://resizing.flixster.com/Tnv_S4QO2auWsBWLEHCf6utfJHw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2QzN2RjYzNhLWQ3MTEtNGUzZi05ODVhLTY3NGM5M2YwNzQ4Yy5qcGc=">
+        </a>
+        <p>JOLLY LLB</p>
+    </div>
+
+    <!-- 3 NEW POPULAR MOVIES -->
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=EXeTwQWrcwY" target="_blank">
+            <img src="https://m.media-amazon.com/images/S/pv-target-images/8753733ac616155963cc440c3cf5367f45d7685b672c5b9c35bc7f182aec17c4.jpg"></a>
+        <p>THE DARK KNIGHT</p>
+    </div>
+
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=YoHD9XEInc0" target="_blank">
+           <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Inception_OST.jpg/250px-Inception_OST.jpg">
+        </a>
+        <p>INCEPTION</p>
+    </div>
+
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeG5JZb6K22KbZ1uXNNHYtQAKj4iJiXAw0g&s"></a>
+        <p>INFINITY WAR</p>
+    </div>
+
+</div>
+
+<!-- ================= TRENDING NOW ================= -->
+<h2>Trending Now</h2>
+<div class="movies">
+
+    <!-- Jawan -->
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=COv52Qyctws" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Jawan_film_poster.jpg">
+        </a>
+        <p>JAWAN</p>
+    </div>
+
+    <!-- Dhurandhar (FIXED POSTER) -->
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=5C9Z2qF2KkA" target="_blank">
+             <img src="https://m.media-amazon.com/images/M/MV5BMTNmNjM0OTktNmQ5NC00MWY1LWE4MDEtYWM0MjU4M2U0NTdiXkEyXkFqcGc@._V1_.jpg">
+        </a>
+        <p>DHURANDHAR</p>
+    </div>
+
+    
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=8pH1zF0qJ2g" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Kesari_Chapter_2.jpg">
+        </a>
+        <p>KESARI</p>
+    </div>
+
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=giXco2jaZ_4" target="_blank">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTU2MzZkNDMtYTM3Yy00ZjEyLTljZDUtNWZhYTNjYWRlODc5XkEyXkFqcGc@._V1_.jpg">
+        </a>
+        <p>PATHAAN</p>
+    </div>
+
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=JKa05nyUmuQ" target="_blank">
+            <img src="https://m.media-amazon.com/images/I/61OmlO9stnL._AC_UF894,1000_QL80_.jpg"></a>
+        <p>ANIMAL</p>
+    </div>
+
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=YxWlaYCA8MU" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/62/Gadar_2_film_poster.jpg">
+        </a>
+        <p>GADAR 2</p>
+    </div>
+
+</div>
+
+</body>
+</html>
