@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMAR STEEL UDYOG | Steel Almirah & Furniture</title>
+
+<style>
+:root{
+    --dark:#0f172a;
+    --dark2:#020617;
+    --accent:#25D366;
+    --bg:#f3f4f6;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:var(--bg);
+    color:#111;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:#fff;
+    padding:28px 15px;
+    text-align:center;
+}
+header h1{
+    margin:0;
+    font-size:34px;
+    letter-spacing:1px;
+}
+header p{
+    margin:6px 0;
+    font-size:15px;
+}
+
+/* NAV */
+nav{
+    background:var(--dark2);
+    padding:10px;
+    text-align:center;
+}
+nav a{
+    color:#fff;
+    margin:0 12px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+}
+
+/* SECTION */
+section{
+    padding:40px 18px;
+}
+.title{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:30px;
+    color:var(--dark);
+}
+
+/* PRODUCTS */
+.products{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.product{
+    background:#fff;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:transform .3s, box-shadow .3s;
+}
+.product:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.product img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    cursor:pointer;
+}
+
+.product-content{
+    padding:16px;
+    text-align:center;
+}
+.product h3{
+    margin:10px 0 6px;
+    font-size:20px;
+}
+.price{
+    color:green;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+/* BUTTONS */
+.btn-group{
+    display:flex;
+    gap:10px;
+}
+.btn{
+    flex:1;
+    padding:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    color:#fff;
+    background:var(--dark);
+    font-size:14px;
+}
+.btn.whatsapp{
+    background:var(--accent);
+}
+
+/* CONTACT */
+form{
+    max-width:500px;
+    margin:0 auto 25px;
+}
+form input, form textarea{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-size:14px;
+}
+form button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:var(--dark);
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+}
+
+/* MAP */
+iframe{
+    border-radius:12px;
+}
+
+/* FOOTER */
+footer{
+    background:var(--dark2);
+    color:#fff;
+    text-align:center;
+    padding:16px;
+    font-size:14px;
+}
+
+/* IMAGE POPUP */
+.popup{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.9);
+    z-index:999;
+}
+.popup img{
+    max-width:90%;
+    max-height:85%;
+    display:block;
+    margin:60px auto;
+}
+.popup span{
+    position:absolute;
+    top:20px;
+    right:30px;
+    font-size:32px;
+    color:#fff;
+    cursor:pointer;
+}
+
+/* MOBILE STICKY BAR */
+.mobile-bar{
+    display:none;
+}
+
+@media(max-width:768px){
+    header h1{font-size:26px;}
+    .title{font-size:24px;}
+    .product img{height:200px;}
+
+    .mobile-bar{
+        display:flex;
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        z-index:1000;
+    }
+    .mobile-bar a{
+        flex:1;
+        padding:14px;
+        text-align:center;
+        font-size:18px;
+        font-weight:700;
+        color:#fff;
+        text-decoration:none;
+    }
+    .mobile-bar .call{background:var(--dark);}
+    .mobile-bar .wa{background:var(--accent);}
+    body{padding-bottom:70px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>AMAR STEEL UDYOG</h1>
+<p>Pandey Khas, Near Radha Kund, Gonda</p>
+<p>📞 <a href="tel:+919792151592" style="color:#fff;">9792151592</a> | 
+<a href="tel:+919450525778" style="color:#fff;">9450525778</a></p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="products">
+<h2 class="title">Our Premium Almirah Designs</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="https://kohinooralmirah.com/wp-content/uploads/2023/07/shop-1.jpg" onclick="openImg(this.src)">
+<div class="product-content">
+<h3>Premium Steel Almirah</h3>
+<p class="price">₹13,500</p>
+<div class="btn-group">
+<a href="tel:+919792151592" class="btn">📞 Call</a>
+<a href="https://wa.me/919792151592?text=Enquiry%20for%20Premium%20Steel%20Almirah" target="_blank" class="btn whatsapp">💬 WhatsApp</a>
+</div>
+</div>
+</div>
+
+<div class="product">
+<img src="https://kohinooralmirah.com/wp-content/uploads/2023/07/shop-3.jpg" onclick="openImg(this.src)">
+<div class="product-content">
+<h3>Designer Almirah A-12</h3>
+<p class="price">₹15,999</p>
+<div class="btn-group">
+<a href="tel:+919792151592" class="btn">📞 Call</a>
+<a href="https://wa.me/919792151592?text=Enquiry%20for%20Designer%20Almirah%20A-12" target="_blank" class="btn whatsapp">💬 WhatsApp</a>
+</div>
+</div>
+</div>
+
+<div class="product">
+<img src="https://kohinooralmirah.com/wp-content/uploads/2023/08/ALMIRAH_6.jpg" onclick="openImg(this.src)">
+<div class="product-content">
+<h3>Designer Almirah A-13</h3>
+<p class="price">₹16,500</p>
+<div class="btn-group">
+<a href="tel:+919792151592" class="btn">📞 Call</a>
+<a href="https://wa.me/919792151592?text=Enquiry%20for%20Designer%20Almirah%20A-13" target="_blank" class="btn whatsapp">💬 WhatsApp</a>
+</div>
+</div>
+</div>
+
+<div class="product">
+<img src="https://m.media-amazon.com/images/I/51dmtml5NPL.jpg" onclick="openImg(this.src)">
+<div class="product-content">
+<h3>Designer Almirah A-10</h3>
+<p class="price">₹15,200</p>
+<div class="btn-group">
+<a href="tel:+919792151592" class="btn">📞 Call</a>
+<a href="https://wa.me/919792151592?text=Enquiry%20for%20Designer%20Almirah%20A-10" target="_blank" class="btn whatsapp">💬 WhatsApp</a>
+</div>
+</div>
+</div>
+
+<div class="product">
+<img src="https://5.imimg.com/data5/SELLER/Default/2023/11/358934147/JY/HV/ZH/181554155/home-locker.jpg" onclick="openImg(this.src)">
+<div class="product-content">
+<h3>Designer Almirah A-11</h3>
+<p class="price">₹16,000</p>
+<div class="btn-group">
+<a href="tel:+919792151592" class="btn">📞 Call</a>
+<a href="https://wa.me/919792151592?text=Enquiry%20for%20Designer%20Almirah%20A-11" target="_blank" class="btn whatsapp">💬 WhatsApp</a>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Customer Enquiry</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="tel" placeholder="Mobile Number" required>
+<textarea placeholder="Product / Message"></textarea>
+<button type="submit">Send Enquiry</button>
+</form>
+
+<h3 style="text-align:center;">📍 Our Location</h3>
+<iframe src="https://www.google.com/maps?q=pandey%20khas%20gonda&output=embed" width="100%" height="260"></iframe>
+</section>
+
+<footer>
+© 2025 AMAR STEEL UDYOG | All Rights Reserved
+</footer>
+
+<!-- MOBILE STICKY BAR -->
+<div class="mobile-bar">
+<a href="tel:+919792151592" class="call">📞 Call</a>
+<a href="https://wa.me/919792151592?text=Enquiry%20for%20Steel%20Almirah" target="_blank" class="wa">💬 WhatsApp</a>
+</div>
+
+<!-- IMAGE POPUP -->
+<div class="popup" id="popup">
+<span onclick="closeImg()">×</span>
+<img id="popupImg">
+</div>
+
+<script>
+function openImg(src){
+    document.getElementById("popup").style.display="block";
+    document.getElementById("popupImg").src = src;
+}
+function closeImg(){
+    document.getElementById("popup").style.display="none";
+}
+</script>
+
+</body>
+</html>
